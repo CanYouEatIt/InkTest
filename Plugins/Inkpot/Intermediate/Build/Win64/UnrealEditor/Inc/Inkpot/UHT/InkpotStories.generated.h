@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UInkpotStories_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotStories_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotStories(); \
 	friend struct ::Z_Construct_UClass_UInkpotStories_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotStories)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UInkpotStories(UInkpotStories&&) = delete; \
 	UInkpotStories(const UInkpotStories&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~UInkpotStories();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_11_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_11_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class UInkpotStories;
 // ********** End Class UInkpotStories *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStories_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

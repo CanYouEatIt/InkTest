@@ -19,7 +19,7 @@ class UBlotterOption;
 enum class EBlotterVariableType : uint8;
 
 // ********** Begin Class UBlotterVariable *********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execIsPinned); \
 	DECLARE_FUNCTION(execSetPinned); \
 	DECLARE_FUNCTION(execIsOptionsOpen); \
@@ -39,7 +39,7 @@ enum class EBlotterVariableType : uint8;
 struct Z_Construct_UClass_UBlotterVariable_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UBlotterVariable_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBlotterVariable(); \
 	friend struct ::Z_Construct_UClass_UBlotterVariable_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UBlotterVariable)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBlotterVariable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -62,13 +62,13 @@ public: \
 	NO_API virtual ~UBlotterVariable();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_40_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_40_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h_43_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -78,7 +78,7 @@ class UBlotterVariable;
 // ********** End Class UBlotterVariable ***********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h
 
 // ********** Begin Enum EBlotterVariableType ******************************************************
 #define FOREACH_ENUM_EBLOTTERVARIABLETYPE(op) \

@@ -102,15 +102,15 @@ UInkpotTagMenu::~UInkpotTagMenu() {}
 // ********** End Class UInkpotTagMenu *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UInkpotTagMenu, UInkpotTagMenu::StaticClass, TEXT("UInkpotTagMenu"), &Z_Registration_Info_UClass_UInkpotTagMenu, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInkpotTagMenu), 24311081U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_3905589632{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_3905589632{
 	TEXT("/Script/InkpotEditor"),
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h__Script_InkpotEditor_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

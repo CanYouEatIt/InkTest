@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UInkpotStoryAssetFactory_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UInkpotStoryAssetFactory_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotStoryAssetFactory(); \
 	friend struct ::Z_Construct_UClass_UInkpotStoryAssetFactory_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotStoryAssetFactory)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UInkpotStoryAssetFactory(UInkpotStoryAssetFactory&&) = delete; \
 	UInkpotStoryAssetFactory(const UInkpotStoryAssetFactory&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~UInkpotStoryAssetFactory();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_10_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_10_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class UInkpotStoryAssetFactory;
 // ********** End Class UInkpotStoryAssetFactory ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Asset_InkpotStoryAssetFactory_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

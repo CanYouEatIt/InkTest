@@ -167,15 +167,15 @@ UBlotterUIEntryContainer::~UBlotterUIEntryContainer() {}
 // ********** End Class UBlotterUIEntryContainer ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UBlotterUIEntryContainer, UBlotterUIEntryContainer::StaticClass, TEXT("UBlotterUIEntryContainer"), &Z_Registration_Info_UClass_UBlotterUIEntryContainer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBlotterUIEntryContainer), 3733135794U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_3427392921{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_3427392921{
 	TEXT("/Script/InkpotEditor"),
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_BlotterUIEntryContainer_h__Script_InkpotEditor_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

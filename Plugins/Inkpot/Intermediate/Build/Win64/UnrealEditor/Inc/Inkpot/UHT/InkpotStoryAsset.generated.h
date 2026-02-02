@@ -19,7 +19,7 @@ class UAssetUserData;
 class UClass;
 
 // ********** Begin Class UInkpotStoryAsset ********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetAssetUserDataOfClass); \
 	DECLARE_FUNCTION(execAddAssetUserData); \
 	DECLARE_FUNCTION(execGetCompiledJSON); \
@@ -29,17 +29,17 @@ class UClass;
 
 
 #if WITH_EDITORONLY_DATA
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER \
 	DECLARE_FARCHIVE_SERIALIZER(UInkpotStoryAsset, NO_API)
 #else // WITH_EDITORONLY_DATA
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER
 #endif // WITH_EDITORONLY_DATA
 
 
 struct Z_Construct_UClass_UInkpotStoryAsset_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotStoryAsset_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotStoryAsset(); \
 	friend struct ::Z_Construct_UClass_UInkpotStoryAsset_Statics; \
@@ -48,11 +48,11 @@ private: \
 public: \
 	DECLARE_CLASS2(UInkpotStoryAsset, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Inkpot"), Z_Construct_UClass_UInkpotStoryAsset_NoRegister) \
 	DECLARE_SERIALIZER(UInkpotStoryAsset) \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ARCHIVESERIALIZER \
 	virtual UObject* _getUObject() const override { return const_cast<UInkpotStoryAsset*>(this); }
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UInkpotStoryAsset(UInkpotStoryAsset&&) = delete; \
 	UInkpotStoryAsset(const UInkpotStoryAsset&) = delete; \
@@ -62,13 +62,13 @@ public: \
 	NO_API virtual ~UInkpotStoryAsset();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_9_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_9_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -78,6 +78,6 @@ class UInkpotStoryAsset;
 // ********** End Class UInkpotStoryAsset **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryAsset_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

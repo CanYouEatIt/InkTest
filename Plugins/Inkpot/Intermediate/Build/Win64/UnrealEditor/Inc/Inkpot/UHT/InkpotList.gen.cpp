@@ -71,16 +71,16 @@ UScriptStruct* Z_Construct_UScriptStruct_FInkpotList()
 // ********** End ScriptStruct FInkpotList *********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FInkpotList::StaticStruct, Z_Construct_UScriptStruct_FInkpotList_Statics::NewStructOps, TEXT("InkpotList"),&Z_Registration_Info_UScriptStruct_FInkpotList, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInkpotList), 1132618465U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_3306143205{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_3306143205{
 	TEXT("/Script/Inkpot"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotList_h__Script_Inkpot_Statics::ScriptStructInfo),
 	nullptr, 0,
 };
 // ********** End Registration *********************************************************************

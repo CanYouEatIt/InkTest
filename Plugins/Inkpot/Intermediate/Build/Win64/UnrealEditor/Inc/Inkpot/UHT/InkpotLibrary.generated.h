@@ -20,7 +20,7 @@ class UClass;
 class UInkpotStory;
 
 // ********** Begin Class UInkpotLibrary ***********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetStoryAssetUserData); \
 	DECLARE_FUNCTION(execGetTagWithPrefixAndStrip);
 
@@ -28,7 +28,7 @@ class UInkpotStory;
 struct Z_Construct_UClass_UInkpotLibrary_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotLibrary_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotLibrary(); \
 	friend struct ::Z_Construct_UClass_UInkpotLibrary_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotLibrary)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -51,13 +51,13 @@ public: \
 	NO_API virtual ~UInkpotLibrary();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_11_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_11_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,6 +67,6 @@ class UInkpotLibrary;
 // ********** End Class UInkpotLibrary *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotLibrary_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

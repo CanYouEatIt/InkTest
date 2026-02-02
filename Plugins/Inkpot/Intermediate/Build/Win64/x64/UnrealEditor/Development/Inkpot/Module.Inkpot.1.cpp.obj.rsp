@@ -1,12 +1,12 @@
-"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp"
-@"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Inkpot.Shared.rsp"
-/FI"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Definitions.Inkpot.h"
-/Yu"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.obj"
-/experimental:log "C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.sarif"
-/sourceDependencies "C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.dep.json"
+"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp"
+@"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Inkpot.Shared.rsp"
+/FI"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Definitions.Inkpot.h"
+/Yu"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.obj"
+/experimental:log "C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.sarif"
+/sourceDependencies "C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inkpot/Module.Inkpot.1.cpp.dep.json"
 /nologo
 /Oi
 /FC

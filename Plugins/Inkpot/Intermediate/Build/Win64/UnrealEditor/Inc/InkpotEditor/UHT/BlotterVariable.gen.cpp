@@ -1105,7 +1105,7 @@ UBlotterVariable::~UBlotterVariable() {}
 // ********** End Class UBlotterVariable ***********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EBlotterVariableType_StaticEnum, TEXT("EBlotterVariableType"), &Z_Registration_Info_UEnum_EBlotterVariableType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3256747930U) },
@@ -1113,12 +1113,12 @@ struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_P
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UBlotterVariable, UBlotterVariable::StaticClass, TEXT("UBlotterVariable"), &Z_Registration_Info_UClass_UBlotterVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBlotterVariable), 2155962200U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_3531045132{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_3531045132{
 	TEXT("/Script/InkpotEditor"),
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::EnumInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterVariable_h__Script_InkpotEditor_Statics::EnumInfo),
 };
 // ********** End Registration *********************************************************************
 

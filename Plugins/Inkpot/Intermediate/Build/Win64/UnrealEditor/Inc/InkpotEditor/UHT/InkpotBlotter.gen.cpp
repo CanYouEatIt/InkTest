@@ -893,15 +893,15 @@ UInkpotBlotter::~UInkpotBlotter() {}
 // ********** End Class UInkpotBlotter *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UInkpotBlotter, UInkpotBlotter::StaticClass, TEXT("UInkpotBlotter"), &Z_Registration_Info_UClass_UInkpotBlotter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInkpotBlotter), 54204912U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_1811540564{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_1811540564{
 	TEXT("/Script/InkpotEditor"),
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h__Script_InkpotEditor_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

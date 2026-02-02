@@ -17,16 +17,16 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UBlotterUIEntryVariable **************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execRefresh); \
 	DECLARE_FUNCTION(execSetVariableFromText);
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_CALLBACK_WRAPPERS
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_UBlotterUIEntryVariable_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UBlotterUIEntryVariable_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBlotterUIEntryVariable(); \
 	friend struct ::Z_Construct_UClass_UBlotterUIEntryVariable_Statics; \
@@ -38,7 +38,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UBlotterUIEntryVariable*>(this); }
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBlotterUIEntryVariable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -50,14 +50,14 @@ public: \
 	NO_API virtual ~UBlotterUIEntryVariable();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_9_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_9_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_CALLBACK_WRAPPERS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_CALLBACK_WRAPPERS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,6 +67,6 @@ class UBlotterUIEntryVariable;
 // ********** End Class UBlotterUIEntryVariable ****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterUIEntryVariable_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

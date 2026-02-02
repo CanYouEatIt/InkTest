@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UInkpotTagMenu_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UInkpotTagMenu_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotTagMenu(); \
 	friend struct ::Z_Construct_UClass_UInkpotTagMenu_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotTagMenu)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotTagMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~UInkpotTagMenu();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_6_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_6_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h_9_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,6 +58,6 @@ class UInkpotTagMenu;
 // ********** End Class UInkpotTagMenu *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_GameplayTags_InkpotTagMenu_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

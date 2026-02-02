@@ -27,6 +27,32 @@
 		],
 		"Module.Inkpot.3.cpp.obj": [
 			"InkpotStory.gen.cpp.obj"
+		],
+		"Module.Inkpot.4.cpp.obj": [
+			"InkpotStoryAsset.cpp.obj",
+			"InkpotStoryMetaDataSimple.cpp.obj",
+			"InkpotModule.cpp.obj",
+			"AsyncAction_WaitVariableChange.cpp.obj",
+			"Inkpot.cpp.obj",
+			"InkpotChoice.cpp.obj",
+			"InkpotGameplayTagLibrary.cpp.obj",
+			"InkpotLibrary.cpp.obj",
+			"InkpotLine.cpp.obj",
+			"InkpotList.cpp.obj",
+			"InkpotListLibrary.cpp.obj",
+			"InkpotStories.cpp.obj",
+			"InkpotStory.cpp.obj",
+			"inkpotStoryFactory.cpp.obj",
+			"InkpotStoryHistory.cpp.obj",
+			"InkpotStoryInternal.cpp.obj",
+			"InkpotValue.cpp.obj",
+			"InkpotValueLibrary.cpp.obj",
+			"InkpotWatch.cpp.obj",
+			"InkpotCVars.cpp.obj",
+			"InkpotPreferences.cpp.obj",
+			"InkpotSettings.cpp.obj",
+			"InkpotLog.cpp.obj",
+			"InkpotUtility.cpp.obj"
 		]
 	}
 }

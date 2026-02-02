@@ -20,7 +20,7 @@ class UBlotterVariable;
 class UInkpotStory;
 
 // ********** Begin Class UInkpotBlotter ***********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnDebugRefresh); \
 	DECLARE_FUNCTION(execOnStoryBegin); \
 	DECLARE_FUNCTION(execOnPIEEnd); \
@@ -34,11 +34,11 @@ class UInkpotStory;
 	DECLARE_FUNCTION(execGetAliveFlowNames);
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_CALLBACK_WRAPPERS
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_UInkpotBlotter_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UInkpotBlotter_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotBlotter(); \
 	friend struct ::Z_Construct_UClass_UInkpotBlotter_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotBlotter)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotBlotter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -61,14 +61,14 @@ public: \
 	NO_API virtual ~UInkpotBlotter();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_9_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_9_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_CALLBACK_WRAPPERS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_CALLBACK_WRAPPERS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -78,6 +78,6 @@ class UInkpotBlotter;
 // ********** End Class UInkpotBlotter *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_InkpotBlotter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

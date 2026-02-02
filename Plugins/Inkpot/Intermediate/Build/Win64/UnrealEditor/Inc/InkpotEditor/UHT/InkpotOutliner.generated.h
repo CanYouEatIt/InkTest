@@ -19,15 +19,15 @@ class UBlotterContainer;
 class UInkpotStory;
 
 // ********** Begin Class UInkpotOutliner **********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnStoryBegin);
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_CALLBACK_WRAPPERS
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_UInkpotOutliner_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UInkpotOutliner_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotOutliner(); \
 	friend struct ::Z_Construct_UClass_UInkpotOutliner_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotOutliner)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotOutliner(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -50,14 +50,14 @@ public: \
 	NO_API virtual ~UInkpotOutliner();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_10_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_10_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_CALLBACK_WRAPPERS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_CALLBACK_WRAPPERS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,6 +67,6 @@ class UInkpotOutliner;
 // ********** End Class UInkpotOutliner ************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Outliner_InkpotOutliner_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

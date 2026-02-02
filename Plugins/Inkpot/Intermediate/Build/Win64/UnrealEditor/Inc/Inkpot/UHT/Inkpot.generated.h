@@ -19,21 +19,21 @@ class UInkpotStory;
 class UInkpotStoryAsset;
 
 // ********** Begin Delegate FOnStoryBegin *********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_10_DELEGATE \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_10_DELEGATE \
 INKPOT_API void FOnStoryBegin_DelegateWrapper(const FMulticastScriptDelegate& OnStoryBegin, UInkpotStory* Story);
 
 
 // ********** End Delegate FOnStoryBegin ***********************************************************
 
 // ********** Begin Delegate FOnStoryEnd ***********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_11_DELEGATE \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_11_DELEGATE \
 INKPOT_API void FOnStoryEnd_DelegateWrapper(const FMulticastScriptDelegate& OnStoryEnd, UInkpotStory* Story);
 
 
 // ********** End Delegate FOnStoryEnd *************************************************************
 
 // ********** Begin Class UInkpot ******************************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEndStory); \
 	DECLARE_FUNCTION(execGetStoryAsset); \
 	DECLARE_FUNCTION(execGetStory); \
@@ -43,7 +43,7 @@ INKPOT_API void FOnStoryEnd_DelegateWrapper(const FMulticastScriptDelegate& OnSt
 struct Z_Construct_UClass_UInkpot_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpot_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpot(); \
 	friend struct ::Z_Construct_UClass_UInkpot_Statics; \
@@ -54,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpot)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UInkpot(UInkpot&&) = delete; \
 	UInkpot(const UInkpot&) = delete; \
@@ -64,13 +64,13 @@ public: \
 	NO_API virtual ~UInkpot();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_13_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_13_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -80,6 +80,6 @@ class UInkpot;
 // ********** End Class UInkpot ********************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_Inkpot_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

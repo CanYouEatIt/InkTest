@@ -1,12 +1,12 @@
-"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp"
-@"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/InkPlusPlus.Shared.rsp"
-/FI"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Definitions.InkPlusPlus.h"
-/Yu"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.obj"
-/experimental:log "C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.sarif"
-/sourceDependencies "C:/Users/Brian/Desktop/InkpotDemo-release/InkpotDemo/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.dep.json"
+"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp"
+@"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/InkPlusPlus.Shared.rsp"
+/FI"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Definitions.InkPlusPlus.h"
+/Yu"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/Brian/Desktop/inktest/InkTest/Intermediate/Build/Win64/x64/InkpotDemoEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.obj"
+/experimental:log "C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.sarif"
+/sourceDependencies "C:/Users/Brian/Desktop/inktest/InkTest/Plugins/Inkpot/Intermediate/Build/Win64/x64/UnrealEditor/Development/InkPlusPlus/Module.InkPlusPlus.cpp.dep.json"
 /nologo
 /Oi
 /FC

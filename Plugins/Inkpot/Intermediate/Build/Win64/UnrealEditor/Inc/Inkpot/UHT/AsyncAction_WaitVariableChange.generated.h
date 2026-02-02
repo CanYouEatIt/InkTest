@@ -21,14 +21,14 @@ class UObject;
 struct FInkpotValue;
 
 // ********** Begin Delegate FInkpotVariableChangeSignature ****************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_15_DELEGATE \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_15_DELEGATE \
 static void FInkpotVariableChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& InkpotVariableChangeSignature, UInkpotStory* Story, const FString& Variable, FInkpotValue const& Value);
 
 
 // ********** End Delegate FInkpotVariableChangeSignature ******************************************
 
 // ********** Begin Class UAsyncAction_WaitVariableChange ******************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnVariableChange); \
 	DECLARE_FUNCTION(execOnEndStory); \
 	DECLARE_FUNCTION(execOnBeginStory); \
@@ -39,7 +39,7 @@ static void FInkpotVariableChangeSignature_DelegateWrapper(const FMulticastScrip
 struct Z_Construct_UClass_UAsyncAction_WaitVariableChange_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UAsyncAction_WaitVariableChange_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAsyncAction_WaitVariableChange(); \
 	friend struct ::Z_Construct_UClass_UAsyncAction_WaitVariableChange_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UAsyncAction_WaitVariableChange)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAsyncAction_WaitVariableChange(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -62,13 +62,13 @@ public: \
 	NO_API virtual ~UAsyncAction_WaitVariableChange();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_10_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_10_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -78,6 +78,6 @@ class UAsyncAction_WaitVariableChange;
 // ********** End Class UAsyncAction_WaitVariableChange ********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_AsyncActions_AsyncAction_WaitVariableChange_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

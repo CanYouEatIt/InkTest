@@ -19,14 +19,14 @@ class UInkpotStory;
 struct FInkpotValue;
 
 // ********** Begin Delegate FOnVariableChangeMulti ************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_11_DELEGATE \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_11_DELEGATE \
 INKPOT_API void FOnVariableChangeMulti_DelegateWrapper(const FMulticastScriptDelegate& OnVariableChangeMulti, UInkpotStory* Story, const FString& Variable, FInkpotValue const& NewValue);
 
 
 // ********** End Delegate FOnVariableChangeMulti **************************************************
 
 // ********** Begin Class UInkpotWatch *************************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnVariableChange); \
 	DECLARE_FUNCTION(execOnBeginStory);
 
@@ -34,7 +34,7 @@ INKPOT_API void FOnVariableChangeMulti_DelegateWrapper(const FMulticastScriptDel
 struct Z_Construct_UClass_UInkpotWatch_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotWatch_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotWatch(); \
 	friend struct ::Z_Construct_UClass_UInkpotWatch_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotWatch)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotWatch(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -57,13 +57,13 @@ public: \
 	NO_API virtual ~UInkpotWatch();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_13_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_13_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -73,6 +73,6 @@ class UInkpotWatch;
 // ********** End Class UInkpotWatch ***************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotWatch_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

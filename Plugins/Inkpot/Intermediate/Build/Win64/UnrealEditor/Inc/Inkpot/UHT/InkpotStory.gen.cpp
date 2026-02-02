@@ -6319,15 +6319,15 @@ UInkpotStory::~UInkpotStory() {}
 // ********** End Class UInkpotStory ***************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics
+struct Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UInkpotStory, UInkpotStory::StaticClass, TEXT("UInkpotStory"), &Z_Registration_Info_UClass_UInkpotStory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInkpotStory), 3454671970U) },
 	};
-}; // Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_1922356939{
+}; // Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_1922356939{
 	TEXT("/Script/Inkpot"),
-	Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStory_h__Script_Inkpot_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

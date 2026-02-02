@@ -19,7 +19,7 @@ class UInkpotStoryAsset;
 enum class EAppMsgCategory : uint8;
 
 // ********** Begin Class UInkpotImportPipelineLibrary *********************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execShowInkpotImportMessageDialog); \
 	DECLARE_FUNCTION(execFlushScratchDirectory); \
 	DECLARE_FUNCTION(execGetScratchDirectory); \
@@ -35,7 +35,7 @@ enum class EAppMsgCategory : uint8;
 struct Z_Construct_UClass_UInkpotImportPipelineLibrary_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UInkpotImportPipelineLibrary_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotImportPipelineLibrary(); \
 	friend struct ::Z_Construct_UClass_UInkpotImportPipelineLibrary_Statics; \
@@ -46,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotImportPipelineLibrary)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	INKPOTEDITOR_API UInkpotImportPipelineLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -58,13 +58,13 @@ public: \
 	INKPOTEDITOR_API virtual ~UInkpotImportPipelineLibrary();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_9_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_9_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -74,6 +74,6 @@ class UInkpotImportPipelineLibrary;
 // ********** End Class UInkpotImportPipelineLibrary ***********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_ImportPipeline_InkpotImportPipelineLibrary_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,7 +19,7 @@ class UAssetUserData;
 class UInkpotStoryMetaDataSimple;
 
 // ********** Begin Class UInkpotStoryMetaDataSimple ***********************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execBreakInkpotStoryMetaDataSimple); \
 	DECLARE_FUNCTION(execMakeInkpotStoryMetaDataSimple);
 
@@ -27,7 +27,7 @@ class UInkpotStoryMetaDataSimple;
 struct Z_Construct_UClass_UInkpotStoryMetaDataSimple_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotStoryMetaDataSimple_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotStoryMetaDataSimple(); \
 	friend struct ::Z_Construct_UClass_UInkpotStoryMetaDataSimple_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotStoryMetaDataSimple)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotStoryMetaDataSimple(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -50,13 +50,13 @@ public: \
 	NO_API virtual ~UInkpotStoryMetaDataSimple();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_7_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_7_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,6 +66,6 @@ class UInkpotStoryMetaDataSimple;
 // ********** End Class UInkpotStoryMetaDataSimple *************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Asset_InkpotStoryMetaDataSimple_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

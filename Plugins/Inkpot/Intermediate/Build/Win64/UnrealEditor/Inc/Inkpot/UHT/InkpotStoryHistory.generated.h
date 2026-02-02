@@ -20,7 +20,7 @@ class UInkpotStory;
 
 // ********** Begin ScriptStruct FInkpotStoryHistoryEvent ******************************************
 struct Z_Construct_UScriptStruct_FInkpotStoryHistoryEvent_Statics;
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_21_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_21_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FInkpotStoryHistoryEvent_Statics; \
 	INKPOT_API static class UScriptStruct* StaticStruct();
 
@@ -29,7 +29,7 @@ struct FInkpotStoryHistoryEvent;
 // ********** End ScriptStruct FInkpotStoryHistoryEvent ********************************************
 
 // ********** Begin Class UInkpotStoryHistory ******************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnStoryChoosePath); \
 	DECLARE_FUNCTION(execOnStorySwitchFlow); \
 	DECLARE_FUNCTION(execOnStoryChoice); \
@@ -39,7 +39,7 @@ struct FInkpotStoryHistoryEvent;
 struct Z_Construct_UClass_UInkpotStoryHistory_Statics;
 INKPOT_API UClass* Z_Construct_UClass_UInkpotStoryHistory_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInkpotStoryHistory(); \
 	friend struct ::Z_Construct_UClass_UInkpotStoryHistory_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UInkpotStoryHistory)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInkpotStoryHistory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -62,13 +62,13 @@ public: \
 	NO_API virtual ~UInkpotStoryHistory();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_38_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_38_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -78,7 +78,7 @@ class UInkpotStoryHistory;
 // ********** End Class UInkpotStoryHistory ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotStoryHistory_h
 
 // ********** Begin Enum EInkpotStoryEventType *****************************************************
 #define FOREACH_ENUM_EINKPOTSTORYEVENTTYPE(op) \

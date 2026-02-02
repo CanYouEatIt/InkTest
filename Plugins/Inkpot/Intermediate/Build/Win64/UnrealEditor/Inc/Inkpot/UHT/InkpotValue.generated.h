@@ -18,7 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FInkpotValue ******************************************************
 struct Z_Construct_UScriptStruct_FInkpotValue_Statics;
-#define FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotValue_h_11_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotValue_h_11_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FInkpotValue_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -27,6 +27,6 @@ struct FInkpotValue;
 // ********** End ScriptStruct FInkpotValue ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotValue_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_Inkpot_Public_Inkpot_InkpotValue_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

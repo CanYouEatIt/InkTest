@@ -18,7 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 enum class ECheckBoxState : uint8;
 
 // ********** Begin Class UBlotterOption ***********************************************************
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execSetSelected); \
 	DECLARE_FUNCTION(execGetState); \
 	DECLARE_FUNCTION(execIsSelected);
@@ -27,7 +27,7 @@ enum class ECheckBoxState : uint8;
 struct Z_Construct_UClass_UBlotterOption_Statics;
 INKPOTEDITOR_API UClass* Z_Construct_UClass_UBlotterOption_NoRegister();
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBlotterOption(); \
 	friend struct ::Z_Construct_UClass_UBlotterOption_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UBlotterOption)
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBlotterOption(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -50,13 +50,13 @@ public: \
 	NO_API virtual ~UBlotterOption();
 
 
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_7_PROLOG
-#define FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_GENERATED_BODY \
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_7_PROLOG
+#define FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_INCLASS_NO_PURE_DECLS \
-	FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_ENHANCED_CONSTRUCTORS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_INCLASS_NO_PURE_DECLS \
+	FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,6 +66,6 @@ class UBlotterOption;
 // ********** End Class UBlotterOption *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_InkpotDemo_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h
+#define CURRENT_FILE_ID FID_InkTest_Plugins_Inkpot_Source_InkpotEditor_Public_Blotter_BlotterOption_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
